@@ -39,6 +39,22 @@ const App = () => {
                             <div className='col-sm'>
                                 <ExpenseTotal />
                             </div>
+                        }
+
+                        {
+                            //Currency component
+                            <div className='col-sm'>
+                                <span>Currency: </span>
+                                <input type="select">
+                                    <select>
+                                        <option value="USD">$ Dollar</option>
+                                        <option value="Pound">£ Pound</option>
+                                        <option value="Euro">€ Euro</option>
+                                        <option value="Ruppee">₹ Ruppee</option>
+                                    </select>
+                                </input>
+                            </div>
+
                         }        
 
                     <h3 className='mt-3'>Allocation</h3>
